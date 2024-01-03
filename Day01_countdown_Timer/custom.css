@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins&family=Ubuntu&family=Varela+Round&display=swap');
+.main{
+    width: 100%;
+    height:100vh;
+    background:url("./newbg.jpg") center center; 
+    background-size: cover;
+}
+.overlay{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.title{
+    color:white;
+     margin-top:20px;
+    font-size: 2.5rem;
+}
+.col{
+    width:1000px;
+    height:100px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+
+}
+.col input{
+    height:150px;
+    width:50%;
+    margin-bottom: 5px;
+    background-color:transparent;
+    border:transparent;
+    border-radius: 5px;
+    text-align: center;
+    color:white;
+    font-size: 100px;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
